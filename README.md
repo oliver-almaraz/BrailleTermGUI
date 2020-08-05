@@ -1,7 +1,7 @@
 # BrailleTermGUI
 
 Este programa es parte de un proyecto sin fines de lucro, se trata en general de un curso gratuito para
-aprender signografía básica del braille en español. Algo
+aprender signografía básica del braille en español destinado a usuarios videntes. Algo
 peculiar de esta aplicación es que pasé cada letra braille a un dibujo con texto en lugar de usar los
 signos Unicode, esto ayuda a que los signos braille se vean más grandes y se puedan cambiar de fuente.
 Tal vez el solo diccionario con todas las letras y números te sirva para otro fin.
