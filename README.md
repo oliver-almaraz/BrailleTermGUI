@@ -5,7 +5,7 @@ aprender signografía básica del braille en español destinado a usuarios viden
 peculiar de esta aplicación es que pasé cada letra braille a un dibujo con texto en lugar de usar los
 signos Unicode, esto ayuda a que los signos braille se vean más grandes y se puedan cambiar de fuente.
 Tal vez el solo diccionario con todas las letras y números te sirva para otro fin.
-Próximos proyectos incluyen un curso de MUSICOGRAFÍA braille con su respectiva aplicación.
+Próximos proyectos incluyen un curso de **musicografía** braille con su respectiva aplicación.
 
 Mi finalidad era crear un programa simple que funcionara en casi cualquier plataforma, así que al inicio me
 enfoqué en crear un script que se ejecutara desde la terminal sin complicaciones (de ahí el nombre del
@@ -14,16 +14,35 @@ Windows tendrían que descargar el intérprete.
 
 Estando consciente de que la mayoría de los participantes del curso al que está dedicado este programa
 usarían Windows, me tomé el tiempo para hacer esta versión con una interfaz gráfica con Tkinter y lo
-empaqueté como un binario (.exe) para Windows y como un ejecutable para Linux. 
+empaqueté como un binario (.exe) para Windows y como un ejecutable para Linux.
 
-Una versión para Android y una aplicacción web están actualmente en proceso de desarrollo. Para ello me
-vendría bastante bien algo de apoyo.
+## Cómo usarlo en Windows
+
+Ve a la sección de [releases](https://github.com/oliver-almaraz/BrailleTermGUI/releases) y busca la versión para Windows.
+Descarga el fichero comprimido que termina en **.zip**, ábrelo y dale doble click ¡así de fácil!
+El programa es *portable*, así que no es necesario instalarlo.
+
+## Cómo usarlo en Linux (x64)
+
+Ve a la sección de [releases](https://github.com/oliver-almaraz/BrailleTermGUI/releases) y busca la versión para Linux.
+Descarga el fichero comprimido que termina en **.tar.gz** y extrae la carpeta que contiene.
+Asegúrate de que el ejecutable (dentro de la carpeta) tenga permisos de ejecución y dale doble click.
+¡Listo! Si requieres una versión para Linux 32 bit contáctame.
+
+Nota: también puedes ejecutar directamente el script Python, pero el módulo necesario **Tkinter** no está instalado
+por defecto en Linux, deberás ibstalarlo primero. Después, escribe en la terminal:
+>$ python3 /ruta/del/archivo.py
+
+## Android
+
+Actualmente estoy trabajando en una versión para Android. Mientras tanto es posible utilizar la versión de BrailleTerm
+para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al repositorio
+dedicado a la versión de BrailleTerm para terminal.
 
 Cualquier contribución es bienvenida:
 
+#### Oliver Almaraz (México)
 oliver.almaraz@gmail.com
-Oliver Almaraz (México)
-4-ago-2020
 
 ## Screenshots:
 
