@@ -23,5 +23,15 @@ vendría bastante bien algo de apoyo.
 Cualquier contribución es bienvenida:
 
 oliver.almaraz@gmail.com
-Oliver Almaraz (México).
+Oliver Almaraz (México)
 4-ago-2020
+
+## Screenshots:
+
+### Windows 10
+
+![Screenshot Win 10](https://github.com/oliver-almaraz/BrailleTermGUI/releases/download/Win_v1.0/ScreenshotWin10.jpg)
+
+### Manjaro Linux
+
+![Screenshot Manjaro](https://github.com/oliver-almaraz/BrailleTermGUI/releases/download/Linux_v1.0/ScreenShotManjaro.png)
