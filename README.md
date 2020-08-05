@@ -1,5 +1,4 @@
 # BrailleTermGUI
-(for english see below)
 
 Este programa es parte de un proyecto sin fines de lucro, se trata en general de un curso gratuito para
 aprender signografía básica del braille en español. Algo
@@ -31,6 +30,8 @@ Oliver Almaraz (México)
 ### Windows 10
 
 <img src="https://user-images.githubusercontent.com/69062188/89375504-64fcca80-d6b3-11ea-827f-0228bb504414.jpg" width="90%"></img> 
+
+
 
 ### Manjaro Linux
 
