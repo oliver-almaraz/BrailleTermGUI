@@ -30,14 +30,19 @@ Asegúrate de que el ejecutable (dentro de la carpeta) tenga permisos de ejecuci
 ¡Listo! Si requieres una versión para Linux 32 bit contáctame.
 
 Nota: también puedes ejecutar directamente el script Python, pero el módulo necesario **Tkinter** no está instalado
-por defecto en Linux, deberás ibstalarlo primero. Después, escribe en la terminal:
+por defecto en Linux, deberás instalarlo primero (el método cambia para cada distro). Después, escribe en la terminal:
 >$ python3 /ruta/del/archivo.py
 
 ## Android
 
-Actualmente estoy trabajando en una versión para Android. Mientras tanto es posible utilizar la versión de BrailleTerm
+Actualmente estoy trabajando en una versión para Android. Mientras tanto, es posible utilizar la versión de BrailleTerm
 para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al repositorio
 dedicado a la versión de BrailleTerm para terminal.
+
+## MacOS
+
+Empaquetar el programa para ser utilizado en MacOS me tomaría pocos minutos. Si quieres usar BrailleTerm en Mac
+[contáctame](oliver.almaraz@gmail.com).
 
 Cualquier contribución es bienvenida:
 
