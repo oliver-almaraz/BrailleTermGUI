@@ -30,8 +30,8 @@ Oliver Almaraz (México)
 
 ### Windows 10
 
-![Screenshot Win 10](https://github.com/oliver-almaraz/BrailleTermGUI/releases/download/Win_v1.0/ScreenshotWin10.jpg)
+<img src="https://user-images.githubusercontent.com/69062188/89375504-64fcca80-d6b3-11ea-827f-0228bb504414.jpg" width="90%"></img> 
 
 ### Manjaro Linux
 
-![Screenshot Manjaro](https://github.com/oliver-almaraz/BrailleTermGUI/releases/download/Linux_v1.0/ScreenShotManjaro.png)
+<img src="https://user-images.githubusercontent.com/69062188/89375507-6a5a1500-d6b3-11ea-9b93-d10d8a63b669.png" width="90%"></img> 
