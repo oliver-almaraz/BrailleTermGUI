@@ -1,8 +1,8 @@
 #### BrailleTerm #####
 #Juego sencillo para repasar signografía básica braille (español).
-#Escrito en Python 3.8.3, pero para que funcione correctamente Pyinstaller en Windows hay que usar Python 3.7.
+#Escrito en Python 3.8.3.
 #Creado por Oliver Almaraz el 27/jul/2020
-#Última modificación 4/ago/2020
+#Última modificación 5/ago/2020
 #Reportar bugs: oliver.almaraz@gmail.com
 
 #GUI
@@ -239,13 +239,14 @@ menubar=Menu(root)
 root.config(menu=menubar)
 opciones=Menu(menubar,tearoff=0)
 menubar.add_cascade(label="Opciones", menu=opciones)
-opciones.add_command(label="Mostrar tabla braille",command=vertabla)
+opciones.add_command(label="Mostrar tabla braille",command=vertabla) #Se muestra una imagen (.gif) con la tabla de la signografía básica braille.
 opciones.add_separator()
-opciones.add_command(label="Salir",command=root.quit)
+opciones.add_command(label="Salir",command=root.destroy)
 ayuda=Menu(menubar,tearoff=0)
-menubar.add_cascade(label="Ayuda", menu=ayuda)
-ayuda.add_command(label="Cómo jugar",command=como_jugar)
-ayuda.add_command(label="Acerca de este juego", command=about)
+menubar.add_cascade(label="Ayuda", menu=ayuda) #Enlace a un archivo de texto (.txt) para poderlo modificar a conveniencia.
+ayuda.add_command(label="Cómo jugar",command=como_jugar) #Enlace a un archivo de texto (.txt).
+ayuda.add_command(label="Acerca de este juego", command=about) #Enlace a un archivo de texto (.txt).
+###### Termina Menú #####
 
 elige = Label(root, text="\n¿Qué filas quieres repasar?\n   (Elige una o varias opciones sucesivas)   \n").pack()
 Checkbutton(root,text="Primera fila (letras a-j)",command=lambda:select(0)).pack() #lambda permite pasar el comando con argumentos sin que se active automáticamente.
@@ -270,8 +271,6 @@ boton = Button(root, text='Evaluar', command=evaluar_respuesta)
 boton.pack()
 siguiente = Button(root, text="Siguiente",command=siguiente_letra)
 siguiente.pack()
-contacto = Label(root,text="\nContacto: oliver.almaraz@gmail.com")
-contacto.pack()
 vacuum = Label(root)
 vacuum.pack()
 #### Debe ir al final ###
