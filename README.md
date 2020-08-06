@@ -34,7 +34,8 @@ de archivos que use tu entorno de escritorio (Nautilus, Thunar, Dolphin, etc.) a
 da click derecho en un lugar vacío y elige *terminal* o *abrir terminal aquí*.
 Finalmente, escribe en la terminal:
 >$ python3 nombre_del_archivo.py
-Nota: es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
+
+**Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
 de texto no se mostrarán correctamente.
 
 ## Android
@@ -55,7 +56,8 @@ Después, descomprime la carpeta del código, abre una terminal, y cambia el *wo
 (Si no estás acostumbrado a usar la terminal, te sugiero seguir este método: [Cómo abrir terminal con una carpeta específica en Mac OS](https://www.solvetic.com/tutoriales/article/6463-como-abrir-terminal-con-una-carpeta-especifica-en-mac-os/))
 Por último, escribe en la terminal:
 >$ python3 nombre_del_archivo.py
-Nota: es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
+
+**Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
 de texto no se mostrarán correctamente.
 
 Cualquier contribución es bienvenida:
