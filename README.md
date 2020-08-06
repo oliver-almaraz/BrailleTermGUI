@@ -1,5 +1,6 @@
 # BrailleTermGUI
 
+ESta es la versión con interfaz gráfica de [BrailleTerm](https://github.com/oliver-almaraz/BrailleTerm).
 Este programa es parte de un proyecto sin fines de lucro, se trata en general de un curso gratuito para
 aprender signografía básica del braille en español destinado a usuarios videntes. Algo
 peculiar de esta aplicación es que pasé cada letra braille a un dibujo con texto en lugar de usar los
@@ -8,7 +9,7 @@ Tal vez el solo diccionario con todas las letras y números te sirva para otro f
 Próximos proyectos incluyen un curso de **musicografía** braille con su respectiva aplicación.
 
 Mi finalidad era crear un programa simple que funcionara en casi cualquier plataforma, así que al inicio me
-enfoqué en crear un script que se ejecutara desde la terminal (de ahí el nombre del programa, 'BrailleTerm').
+enfoqué en crear un [script que se ejecutara desde la terminal](https://github.com/oliver-almaraz/BrailleTerm) (de ahí el nombre del programa, 'BrailleTerm').
 Sin embargo, no consideré que, al estar escrito en Pyton (3.8), los usuarios de Windows tendrían que descargar el intérprete.
 
 Estando consciente de que la mayoría de los participantes del curso al que está dedicado este programa
@@ -40,9 +41,9 @@ de texto no se mostrarán correctamente.
 
 ## Android
 
-Actualmente estoy trabajando en una versión para Android. Mientras tanto, es posible utilizar la versión de BrailleTerm
-para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al repositorio
-dedicado a la versión de BrailleTerm para terminal.
+Actualmente estoy trabajando en una versión para Android. Mientras tanto, es posible utilizar la versión original de BrailleTerm
+para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al [repositorio
+dedicado a la versión de BrailleTerm para terminal](https://github.com/oliver-almaraz/BrailleTerm).
 
 ## MacOS
 
