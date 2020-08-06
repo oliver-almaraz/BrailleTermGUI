@@ -68,7 +68,7 @@ Cualquier contribución es bienvenida:
 #### Oliver Almaraz (México)
 <oliver.almaraz@gmail.com>
 
-## Screenshots:
+## Capturas de pantalla:
 
 ### Windows 10
 
