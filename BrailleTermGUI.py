@@ -2,7 +2,7 @@
 #Juego sencillo para repasar signografía básica braille (español).
 #Escrito en Python 3.8.3.
 #Creado por Oliver Almaraz el 27/jul/2020
-#Última modificación 5/ago/2020
+#Última modificación 6/ago/2020
 #Reportar bugs: oliver.almaraz@gmail.com
 
 #GUI
@@ -40,7 +40,6 @@ respuesta_anterior=[0] #Lista para almacenar la última letra presentada y evita
 #Esto debe estar antes de las funciones para definir variables. Su posición gráfica se define hasta que se empaquetan (.pack())
 root = Tk()
 root.title("BrailleTerm")
-#root.iconbitmap('@/home/oliver/Documentos/BrailleTerm_estable/LinuxGUI_Ejecutable/icono.xbm') ###No pude convertir a xbm sin perder color del logo.
 try:
     root.iconbitmap('icono.ico') ##Funciona en Windows
 except:
@@ -188,9 +187,10 @@ def siguiente_letra():
 info = messagebox.showinfo('Información', message="¡Bienvenido a BrailleTerm!\n\nEste es un juego sencillo que te ayudará a repasar signografía básica braille (español).")
 info2 = messagebox.showinfo('Cómo jugar', message="Elige qué signos quieres estudiar, escribe tu respuesta, presiona 'Evaluar' y sabrás si tu respuesta fue correcta. Si lo fue, una nueva letra se mostrará automáticamente.\n\nSolo se muestran letras minúsculas. En el caso de letras con tilde o diéresis, escribe primero la letra sola y luego la tilde o la diéresis.\nEjemplo: a´, u¨.\n\nEn el caso de '¿?' y de '¡!', escribe solo el signo que cierra. ")
 
-#####Ventana Principal#####
-### Menú superior 
+##### Interfaz gráfica: Ventana principal #####
+### Menú superior ###
 def vertabla():
+    """Al seleccionar la opción 'Mostrar tabla braille' en el menú superior se abre una ventana nueva que muestra una imagen con la tabla"""
     ventana_tabla = tk.Toplevel()
     ventana_tabla.title("BrailleTerm - Tabla de signografía básica braille")
     try:
@@ -207,6 +207,10 @@ def vertabla():
     canvas.create_image(20,20, anchor=NW, image=img)
     ventana_tabla.mainloop()
 def como_jugar():
+    """Al seleccionar la opción 'Cómo jugar' en el menú superior se abre una ventana nueva que muestra el conenido del archivo de texto 'Instrucciones.txt'"""
+    ### Hay dos versiones del archivo 'Instrucciones.txt', el que se descarga junto con el código está en codificación ANSI,
+    ### que funciona en Windows pero tal vez no en Linux. De ser así, la versión con codificación UTF-8 se puede descargar
+    ### junto con el ejecutable para Linux, en la sección de 'releases'.
     comojugar = tk.Toplevel()
     comojugar.title("BrailleTerm - Instrucciones")
     try:
@@ -221,6 +225,10 @@ def como_jugar():
         Label(comojugar, text=f.read(), anchor=NW).pack()
         comojugar.mainloop()
 def about():
+    """Al seleccionar la opción 'Acerca de este juego' en el menú superior se abre una ventana nueva que muestra el conenido del archivo de texto 'Leeme.txt'"""
+    ### Hay dos versiones del archivo 'Leeme.txt', el que se descarga junto con el código está en codificación ANSI,
+    ### que funciona en Windows pero tal vez no en Linux. De ser así, la versión con codificación UTF-8 se puede descargar
+    ### junto con el ejecutable para Linux, en la sección de 'releases'.
     leeme = tk.Toplevel()
     leeme.title("BrailleTerm - Acerca de este programa")
     try:
