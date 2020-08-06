@@ -19,7 +19,7 @@ empaqueté como un binario (.exe) para Windows y como un ejecutable para Linux.
 ## Cómo usarlo en Windows
 
 Ve a la sección de [releases](https://github.com/oliver-almaraz/BrailleTermGUI/releases) y busca la versión para Windows.
-Descarga el fichero comprimido que termina en **.zip**, ábrelo y dale doble click ¡así de fácil!
+Descarga el fichero comprimido que termina en **.zip**, ábrelo y dale doble click al ejecutable (**.exe**) ¡así de fácil!
 El programa es *portable*, así que no es necesario instalarlo.
 
 ## Cómo usarlo en Linux (x64)
@@ -43,7 +43,7 @@ de texto no se mostrarán correctamente.
 
 Actualmente estoy trabajando en una versión para Android. Mientras tanto, es posible utilizar la versión original de BrailleTerm
 para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al [repositorio
-dedicado a la versión de BrailleTerm para terminal](https://github.com/oliver-almaraz/BrailleTerm).
+dedicado a la versión de BrailleTerm para terminal](https://github.com/oliver-almaraz/BrailleTerm/blob/master/README.md#tambi%C3%A9n-se-puede-ejecutar-en-android).
 
 ## MacOS
 
