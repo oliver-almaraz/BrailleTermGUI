@@ -35,7 +35,7 @@ da click derecho en un lugar vacío y elige *terminal* o *abrir terminal aquí*.
 Finalmente, escribe en la terminal:
 >$ python3 nombre_del_archivo.py
 
-**Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
+**Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, imágenes y archivos
 de texto no se mostrarán correctamente.
 
 ## Android
@@ -57,7 +57,7 @@ Después, descomprime la carpeta del código, abre una terminal, y cambia el *wo
 Por último, escribe en la terminal:
 >$ python3 nombre_del_archivo.py
 
-**Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
+**Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, imágenes y archivos
 de texto no se mostrarán correctamente.
 
 Cualquier contribución es bienvenida:
