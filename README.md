@@ -37,9 +37,11 @@ Finalmente, escribe en la terminal:
 >$ python3 nombre_del_archivo.py
 
 **Nota:** es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, imágenes y archivos
-de texto no se mostrarán correctamente. Por otro lado, los documentos de texto que se incluyen en el código fuente
+de texto no se mostrarán correctamente. Por otro lado, los documentos de texto que se incluyen en el directorio principal
 (*Intrucciones.txt* y *Leeme.txt*) usan la codificación ANSI, que se ve bien desde Windows, pero en Linux podría dar problemas.
-Si los acentos y otros caractereres no se visualizan correctamente, descarga el [release para Linux](https://github.com/oliver-almaraz/BrailleTermGUI/releases/tag/Linux_v1.0) y reemplaza los documentos *Instrucciones.txt* y *Leeme.txt* incluidos con el código por los de ese paquete, funcionarán correctamente.
+**Si los acentos y otros caractereres no se visualizan correctamente** al seleccionar las opciones de *ayuda* del menú superior,
+extrae los archivos de texto que se encuentran el la carpeta comprimida **Archivos_txt_Linux.tar.gz** y reemplaza los documentos
+*Instrucciones.txt* y *Leeme.txt* del directorio principal por esos.
 
 ## Android
 
