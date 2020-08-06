@@ -8,12 +8,11 @@ Tal vez el solo diccionario con todas las letras y números te sirva para otro f
 Próximos proyectos incluyen un curso de **musicografía** braille con su respectiva aplicación.
 
 Mi finalidad era crear un programa simple que funcionara en casi cualquier plataforma, así que al inicio me
-enfoqué en crear un script que se ejecutara desde la terminal sin complicaciones (de ahí el nombre del
-programa, 'BrailleTerm'). Sin embargo, no consideré que, al estar escrito en Pyton (3.8), los usuarios de
-Windows tendrían que descargar el intérprete.
+enfoqué en crear un script que se ejecutara desde la terminal (de ahí el nombre del programa, 'BrailleTerm').
+Sin embargo, no consideré que, al estar escrito en Pyton (3.8), los usuarios de Windows tendrían que descargar el intérprete.
 
 Estando consciente de que la mayoría de los participantes del curso al que está dedicado este programa
-usarían Windows, me tomé el tiempo para hacer esta versión con una interfaz gráfica con Tkinter y lo
+usarían Windows, me tomé el tiempo para hacer esta versión con una **interfaz gráfica** con Tkinter y lo
 empaqueté como un binario (.exe) para Windows y como un ejecutable para Linux.
 
 ## Cómo usarlo en Windows
@@ -29,9 +28,14 @@ Descarga el fichero comprimido que termina en **.tar.gz** y extrae la carpeta qu
 Asegúrate de que el ejecutable (dentro de la carpeta) tenga permisos de ejecución y dale doble click.
 ¡Listo! Si requieres una versión para Linux 32 bit contáctame.
 
-Nota: también puedes ejecutar directamente el script Python, pero el módulo necesario **Tkinter** no está instalado
-por defecto en Linux, deberás instalarlo primero (el método cambia para cada distro). Después, escribe en la terminal:
->$ python3 /ruta/del/archivo.py
+También puedes ejecutar directamente el script Python, pero el módulo necesario **Tkinter** no está instalado
+por defecto en Linux, así que deberás instalarlo primero (el método cambia para cada distro). Después, ve con el explorador
+de archivos que use tu entorno de escritorio (Nautilus, Thunar, Dolphin, etc.) a la carpeta que extrajiste del *tar.gz*,
+da click derecho en un lugar vacío y elige *terminal* o *abrir terminal aquí*.
+Finalmente, escribe en la terminal:
+>$ python3 nombre_del_archivo.py
+Nota: es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
+de texto no se mostrarán correctamente.
 
 ## Android
 
@@ -41,13 +45,23 @@ dedicado a la versión de BrailleTerm para terminal.
 
 ## MacOS
 
-Empaquetar el programa para ser utilizado en MacOS me tomaría pocos minutos. Si quieres usar BrailleTerm en Mac
-[contáctame](oliver.almaraz@gmail.com).
+Si no sabes cómo ejecutar el código fuente, puedo empaquetar el programa en un archivo **.app** para ser utilizado en MacOS. Si lo requieres, contáctame.
+
+#### Para ejecutar el script.py desde la terminal
+El intérprete Python que viene instalado por defecto en MacOS es problemático, así que si quieres ejecutar el código fuente
+(desde la terminal o desde un editor) te sugiero descargar un paquete de instalación actualizado del sitio oficial de Python
+(la sintaxis de BrailleTerm requiere Python 3.7 o superior).
+Después, descomprime la carpeta del código, abre una terminal, y cambia el *working directory* a la carpeta en la que se enuentra.
+(Si no estás acostumbrado a usar la terminal, te sugiero seguir este método: [Cómo abrir terminal con una carpeta específica en Mac OS](https://www.solvetic.com/tutoriales/article/6463-como-abrir-terminal-con-una-carpeta-especifica-en-mac-os/))
+Por último, escribe en la terminal:
+>$ python3 nombre_del_archivo.py
+Nota: es importante que el *working directory* de la terminal sea la carpeta del programa, o los íconos, impagenes y archivos
+de texto no se mostrarán correctamente.
 
 Cualquier contribución es bienvenida:
 
 #### Oliver Almaraz (México)
-oliver.almaraz@gmail.com
+<oliver.almaraz@gmail.com>
 
 ## Screenshots:
 
