@@ -19,7 +19,7 @@ empaqueté como un binario (.exe) para Windows y como un ejecutable para Linux.
 ## Cómo usarlo en Windows
 
 Ve a la sección de [releases](https://github.com/oliver-almaraz/BrailleTermGUI/releases) y busca la versión para Windows.
-Descarga el fichero comprimido que termina en **.zip**, ábrelo y dale doble click al ejecutable (**.exe**) ¡así de fácil!
+Descarga el fichero comprimido **BrailleTermWinGUI.zip**, ábrelo y dale doble click al ejecutable (**.exe**) ¡así de fácil!
 El programa es *portable*, así que no es necesario instalarlo.
 
 ## Cómo usarlo en Linux (x64)
