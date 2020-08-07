@@ -25,7 +25,7 @@ El programa es *portable*, así que no es necesario instalarlo.
 ## Cómo usarlo en Linux (x64)
 
 Ve a la sección de [releases](https://github.com/oliver-almaraz/BrailleTermGUI/releases) y busca la versión para Linux.
-Descarga el fichero comprimido que termina en **.tar.gz** y extrae la carpeta que contiene.
+Descarga el fichero comprimido **BrailleTerm_LinuxGUI.tar.gz** y extrae la carpeta que contiene.
 Asegúrate de que el ejecutable (dentro de la carpeta) tenga permisos de ejecución y dale doble click.
 ¡Listo! Si requieres una versión para Linux 32 bit contáctame.
 
