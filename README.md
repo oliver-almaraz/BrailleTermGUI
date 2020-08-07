@@ -30,7 +30,7 @@ Asegúrate de que el ejecutable (dentro de la carpeta) tenga permisos de ejecuci
 ¡Listo! Si requieres una versión para Linux 32 bit contáctame.
 
 También puedes ejecutar directamente el script Python, pero el módulo necesario **Tkinter** no está instalado
-por defecto en Linux, así que deberás instalarlo primero (el método cambia para cada distro). Después, ve con el explorador
+por defecto en Linux, así que deberás instalarlo primero (el método cambia para cada distribución Linux). Después, ve con el explorador
 de archivos que use tu entorno de escritorio (Nautilus, Thunar, Dolphin, etc.) a la carpeta que extrajiste del *tar.gz*,
 da click derecho en un lugar vacío y elige *terminal* o *abrir terminal aquí*.
 Finalmente, escribe en la terminal:
@@ -55,7 +55,7 @@ Si no sabes cómo ejecutar el código fuente, puedo empaquetar el programa en un
 
 #### Para ejecutar el script.py desde la terminal
 El intérprete Python que viene instalado por defecto en MacOS es problemático, así que si quieres ejecutar el código fuente
-(desde la terminal o desde un editor) te sugiero descargar un paquete de instalación actualizado del sitio oficial de Python
+(desde la terminal o desde un editor) te sugiero descargar un paquete de instalación actualizado del [sitio oficial de Python](https://www.python.org/downloads/mac-osx/)
 (la sintaxis de BrailleTerm requiere Python 3.7 o superior).
 Después, descomprime la carpeta del código, abre una terminal, y cambia el *working directory* a la carpeta en la que se enuentra.
 (Si no estás acostumbrado a usar la terminal, te sugiero seguir este método: [Cómo abrir terminal con una carpeta específica en Mac OS](https://www.solvetic.com/tutoriales/article/6463-como-abrir-terminal-con-una-carpeta-especifica-en-mac-os/))
