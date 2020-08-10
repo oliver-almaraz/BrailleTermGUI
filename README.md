@@ -10,7 +10,7 @@ Próximos proyectos incluyen un curso de **musicografía** braille con su respec
 
 Mi finalidad era crear un programa simple que funcionara en casi cualquier plataforma, así que al inicio me
 enfoqué en crear un [script que se ejecutara desde la terminal](https://github.com/oliver-almaraz/BrailleTerm) (de ahí el nombre del programa, 'BrailleTerm').
-Sin embargo, no consideré que, al estar escrito en Pyton (3.8), los usuarios de Windows tendrían que descargar el intérprete.
+Sin embargo, no consideré que, al estar escrito en Python (3.8), los usuarios de Windows tendrían que descargar el intérprete.
 
 Estando consciente de que la mayoría de los participantes del curso al que está dedicado este programa
 usarían Windows, me tomé el tiempo para hacer esta versión con una **interfaz gráfica** con Tkinter y lo
