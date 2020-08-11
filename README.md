@@ -43,9 +43,12 @@ de texto no se mostrarán correctamente. Por otro lado, los documentos de texto 
 extrae los archivos de texto que se encuentran el la carpeta comprimida **Archivos_txt_Linux.tar.gz** y reemplaza los documentos
 *Instrucciones.txt* y *Leeme.txt* del directorio principal por esos.
 
-## Android
+## Dispositivos móviles (Android e iOS)
 
-Actualmente estoy trabajando en una versión para Android. Mientras tanto, es posible utilizar la versión original de BrailleTerm
+Te sugiero utilizar la [versión web de BrailleTerm](https://oliver-almaraz.github.io/BrailleTermWeb/) optimizada para dispositivos móviles.
+Para más información acerca de la versión web, visita [su repositorio](https://github.com/oliver-almaraz/BrailleTermWeb).
+
+También es posible utilizar la versión original de BrailleTerm
 para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al [repositorio
 dedicado a la versión de BrailleTerm para terminal](https://github.com/oliver-almaraz/BrailleTerm/blob/master/README.md#tambi%C3%A9n-se-puede-ejecutar-en-android).
 
