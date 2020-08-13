@@ -48,10 +48,6 @@ extrae los archivos de texto que se encuentran el la carpeta comprimida **Archiv
 Te sugiero utilizar la [versión web de BrailleTerm](https://oliver-almaraz.github.io/BrailleTermWeb/) optimizada para dispositivos móviles.
 Para más información acerca de la versión web, visita [su repositorio](https://github.com/oliver-almaraz/BrailleTermWeb).
 
-También es posible utilizar la versión original de BrailleTerm
-para terminal en Android (descargando un intérprete Python desde la Play Store). Para más información, ve al [repositorio
-dedicado a la versión de BrailleTerm para terminal](https://github.com/oliver-almaraz/BrailleTerm/blob/master/README.md#tambi%C3%A9n-se-puede-ejecutar-en-android).
-
 ## MacOS
 
 Si no sabes cómo ejecutar el código fuente, puedo empaquetar el programa en un archivo **.app** para ser utilizado en MacOS. Si lo requieres, contáctame.
